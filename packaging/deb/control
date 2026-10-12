@@ -1,0 +1,9 @@
+Package: hwh
+Version: @VERSION@
+Architecture: amd64
+Maintainer: Hacker Was Here <hwh@invalid>
+Section: utils
+Priority: optional
+Description: 読み取り専用コピー向けの候補探し
+ 身代金要求文や置き手紙っぽい名前を、用意済みの読み取り専用コピーから探すジョークツール。
+ マウントと保護条件は利用者が用意する。このパッケージは利用許諾を与えない。

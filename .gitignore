@@ -1,0 +1,34 @@
+# Build products and local test output
+/bin/
+/dist/
+/coverage/
+/test-artifacts/
+/hwh
+/hwh.exe
+
+# Local caches and temporary work
+/.cache/
+/work/
+/tmp/
+
+# Local-only records, specifications and ticket drafts
+/.docs/
+/.scratch/
+/AGENTS.md
+
+# Local evidence and credentials; synthetic test fixtures stay tracked
+/evidence/
+.env
+.env.*
+!.env.example
+
+# Personal workspace and OS files
+*.code-workspace
+.DS_Store
+Thumbs.db
+# Non-release safe-read lab artifacts
+/safefs.test
+/safefs-probe
+/safefs-probe.exe
+__pycache__/
+*.pyc
